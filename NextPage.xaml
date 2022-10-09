@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTutorial4.NextPage"
+             Title="Next Page">
+    <VerticalStackLayout
+            VerticalOptions="Center">
+        <Button 
+                x:Name="PrevBtn"
+                Text="Previous Page"
+                SemanticProperties.Hint="Navigate to first page when you click"
+                Clicked="OnPrevBtnClicked"
+                HorizontalOptions="Center" 
+            VerticalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>
